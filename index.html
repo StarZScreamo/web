@@ -198,6 +198,48 @@
                 <div class="pict-mobile">
                     <img src="assets/Get Started 5.png" >
                 </div>
+
+                <!--Google Maps-->
+                <h1 class="section1" id="section1">Project 6</h1>
+            <p class="section2">Lokasi Saya</p>
+            <div class="project-result" > 
+                <div class="detail-mobile">
+                    <h1>Chart Diagram Penjualan</h1>
+                    <p>
+                     Diagram ini dibuat untuk mempermudah melihat data penjualan dari tahun 2022 & 2023 .
+                    </p>
+                       <p>
+                         Klik tombol dibawah untuk preview.
+                    </p>
+                    <div class="btn-mobile">
+                        <div id="map" style="height: 400px; width: 100%;"></div
+                            <div id="contact">
+  <h2>Our Office Location</h2>
+  <div id="map" style="height: 400px; width: 100%;"></div>
+</div>
+ 
+<script>
+  function initMap() {
+    const officeLocation = { lat: -6.345994586095427, lng: 106.69151298592824 }; // Ganti dengan koordinat kantor klien
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 15,
+      center: officeLocation,
+    });
+    const marker = new google.maps.Marker({
+      position: officeLocation,
+      map: map,
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+                                                                              
+                        <span>Chart Diagram Penjualan</span></a>
+                    </div>
+                </div>
+                
+                <div class="pict-mobile">
+                    <img src="assets/Get Started 5.png" >
+                </div>
             </div>
 
 
